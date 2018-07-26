@@ -8,6 +8,119 @@
 
 /* Begin PBXBuildFile section */
 		7D2862D92109A0BD003A3B9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2862D82109A0BD003A3B9F /* main.cpp */; };
+		7D2864A72109A326003A3B9F /* OpenCylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864362109A2F2003A3B9F /* OpenCylinder.cpp */; };
+		7D2864A82109A326003A3B9F /* Transparent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864372109A2F3003A3B9F /* Transparent.cpp */; };
+		7D2864A92109A326003A3B9F /* BRDF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864382109A301003A3B9F /* BRDF.cpp */; };
+		7D2864AA2109A326003A3B9F /* LinearNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864392109A302003A3B9F /* LinearNoise.cpp */; };
+		7D2864AB2109A326003A3B9F /* Maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643A2109A302003A3B9F /* Maths.cpp */; };
+		7D2864AC2109A326003A3B9F /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643B2109A303003A3B9F /* Plane.cpp */; };
+		7D2864AD2109A326003A3B9F /* FBmTextureWrapped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643C2109A303003A3B9F /* FBmTextureWrapped.cpp */; };
+		7D2864AE2109A326003A3B9F /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643D2109A303003A3B9F /* Grid.cpp */; };
+		7D2864AF2109A326003A3B9F /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643E2109A304003A3B9F /* Mesh.cpp */; };
+		7D2864B02109A326003A3B9F /* TurbulenceTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28643F2109A304003A3B9F /* TurbulenceTexture.cpp */; };
+		7D2864B12109A326003A3B9F /* SV_PlaneChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864402109A304003A3B9F /* SV_PlaneChecker.cpp */; };
+		7D2864B22109A326003A3B9F /* SmoothMeshTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864412109A305003A3B9F /* SmoothMeshTriangle.cpp */; };
+		7D2864B32109A326003A3B9F /* GlossyReflector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864422109A305003A3B9F /* GlossyReflector.cpp */; };
+		7D2864B42109A326003A3B9F /* RayCast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864432109A305003A3B9F /* RayCast.cpp */; };
+		7D2864B52109A326003A3B9F /* Emissive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864442109A306003A3B9F /* Emissive.cpp */; };
+		7D2864B62109A326003A3B9F /* Checker3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864452109A306003A3B9F /* Checker3D.cpp */; };
+		7D2864B72109A326003A3B9F /* Dielectric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864462109A307003A3B9F /* Dielectric.cpp */; };
+		7D2864B82109A326003A3B9F /* MeshTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864472109A307003A3B9F /* MeshTriangle.cpp */; };
+		7D2864B92109A326003A3B9F /* SV_Matte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864482109A307003A3B9F /* SV_Matte.cpp */; };
+		7D2864BA2109A326003A3B9F /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864492109A308003A3B9F /* Image.cpp */; };
+		7D2864BB2109A326003A3B9F /* Normal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644A2109A308003A3B9F /* Normal.cpp */; };
+		7D2864BC2109A326003A3B9F /* Tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644B2109A308003A3B9F /* Tracer.cpp */; };
+		7D2864BD2109A326003A3B9F /* FBmTextureRamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644C2109A309003A3B9F /* FBmTextureRamp.cpp */; };
+		7D2864BE2109A326003A3B9F /* SV_GlossyReflector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644D2109A309003A3B9F /* SV_GlossyReflector.cpp */; };
+		7D2864BF2109A326003A3B9F /* SV_Lambertian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644E2109A309003A3B9F /* SV_Lambertian.cpp */; };
+		7D2864C02109A326003A3B9F /* TorusPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28644F2109A30A003A3B9F /* TorusPart.cpp */; };
+		7D2864C12109A326003A3B9F /* FresnelTransmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864502109A30A003A3B9F /* FresnelTransmitter.cpp */; };
+		7D2864C22109A326003A3B9F /* SphereConcave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864512109A30A003A3B9F /* SphereConcave.cpp */; };
+		7D2864C32109A326003A3B9F /* Wood.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864522109A30B003A3B9F /* Wood.cpp */; };
+		7D2864C42109A326003A3B9F /* PlaneChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864532109A30B003A3B9F /* PlaneChecker.cpp */; };
+		7D2864C52109A326003A3B9F /* Annulus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864542109A30B003A3B9F /* Annulus.cpp */; };
+		7D2864C62109A326003A3B9F /* Point2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864552109A30C003A3B9F /* Point2D.cpp */; };
+		7D2864C72109A326003A3B9F /* Torus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864562109A30C003A3B9F /* Torus.cpp */; };
+		7D2864C82109A326003A3B9F /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864572109A30C003A3B9F /* World.cpp */; };
+		7D2864C92109A326003A3B9F /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864582109A30D003A3B9F /* Camera.cpp */; };
+		7D2864CA2109A326003A3B9F /* SV_Emissive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864592109A30D003A3B9F /* SV_Emissive.cpp */; };
+		7D2864CB2109A326003A3B9F /* Pinhole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645A2109A30E003A3B9F /* Pinhole.cpp */; };
+		7D2864CC2109A326003A3B9F /* SpherePartConcave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645B2109A30E003A3B9F /* SpherePartConcave.cpp */; };
+		7D2864CD2109A326003A3B9F /* Compound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645C2109A30E003A3B9F /* Compound.cpp */; };
+		7D2864CE2109A326003A3B9F /* SmoothUVMeshTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645D2109A30F003A3B9F /* SmoothUVMeshTriangle.cpp */; };
+		7D2864CF2109A326003A3B9F /* AreaLighting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645E2109A30F003A3B9F /* AreaLighting.cpp */; };
+		7D2864D02109A326003A3B9F /* Mapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28645F2109A30F003A3B9F /* Mapping.cpp */; };
+		7D2864D12109A326003A3B9F /* Lambertian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864602109A310003A3B9F /* Lambertian.cpp */; };
+		7D2864D22109A326003A3B9F /* FlatUVMeshTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864612109A310003A3B9F /* FlatUVMeshTriangle.cpp */; };
+		7D2864D32109A326003A3B9F /* GlobalTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864622109A310003A3B9F /* GlobalTrace.cpp */; };
+		7D2864D42109A326003A3B9F /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864632109A311003A3B9F /* Light.cpp */; };
+		7D2864D52109A326003A3B9F /* SV_PerfectSpecular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864642109A311003A3B9F /* SV_PerfectSpecular.cpp */; };
+		7D2864D62109A326003A3B9F /* GeometricObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864652109A311003A3B9F /* GeometricObject.cpp */; };
+		7D2864D72109A326003A3B9F /* ViewPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864662109A312003A3B9F /* ViewPlane.cpp */; };
+		7D2864D82109A326003A3B9F /* OpenCylinderPartConcave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864672109A312003A3B9F /* OpenCylinderPartConcave.cpp */; };
+		7D2864D92109A326003A3B9F /* PointLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864682109A313003A3B9F /* PointLight.cpp */; };
+		7D2864DA2109A326003A3B9F /* SolidCylinderChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864692109A313003A3B9F /* SolidCylinderChecker.cpp */; };
+		7D2864DB2109A326003A3B9F /* Reflective.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646A2109A313003A3B9F /* Reflective.cpp */; };
+		7D2864DC2109A326003A3B9F /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646B2109A314003A3B9F /* Vector3D.cpp */; };
+		7D2864DD2109A326003A3B9F /* SV_GlossySpecular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646C2109A314003A3B9F /* SV_GlossySpecular.cpp */; };
+		7D2864DE2109A326003A3B9F /* FresnelReflector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646D2109A314003A3B9F /* FresnelReflector.cpp */; };
+		7D2864DF2109A326003A3B9F /* ConstantColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646E2109A315003A3B9F /* ConstantColor.cpp */; };
+		7D2864E02109A326003A3B9F /* Disk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28646F2109A315003A3B9F /* Disk.cpp */; };
+		7D2864E12109A326003A3B9F /* GlassOfWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864702109A315003A3B9F /* GlassOfWater.cpp */; };
+		7D2864E22109A326003A3B9F /* BBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864712109A316003A3B9F /* BBox.cpp */; };
+		7D2864E32109A326003A3B9F /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864722109A316003A3B9F /* Texture.cpp */; };
+		7D2864E42109A326003A3B9F /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864732109A316003A3B9F /* Rectangle.cpp */; };
+		7D2864E52109A326003A3B9F /* SolidCylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864742109A317003A3B9F /* SolidCylinder.cpp */; };
+		7D2864E62109A326003A3B9F /* BuildShadedObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864752109A317003A3B9F /* BuildShadedObjects.cpp */; };
+		7D2864E72109A326003A3B9F /* FishBowlFlatBottom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864762109A31B003A3B9F /* FishBowlFlatBottom.cpp */; };
+		7D2864E82109A326003A3B9F /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864772109A31C003A3B9F /* Ray.cpp */; };
+		7D2864E92109A326003A3B9F /* Rosette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864782109A31C003A3B9F /* Rosette.cpp */; };
+		7D2864EA2109A326003A3B9F /* Phong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864792109A31D003A3B9F /* Phong.cpp */; };
+		7D2864EB2109A326003A3B9F /* Sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647A2109A31D003A3B9F /* Sampler.cpp */; };
+		7D2864EC2109A326003A3B9F /* AnnulusPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647B2109A31D003A3B9F /* AnnulusPart.cpp */; };
+		7D2864ED2109A326003A3B9F /* PerfectSpecular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647C2109A31D003A3B9F /* PerfectSpecular.cpp */; };
+		7D2864EE2109A326003A3B9F /* GlossySpecular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647D2109A31E003A3B9F /* GlossySpecular.cpp */; };
+		7D2864EF2109A326003A3B9F /* FBmTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647E2109A31E003A3B9F /* FBmTexture.cpp */; };
+		7D2864F02109A326003A3B9F /* RGBColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28647F2109A31E003A3B9F /* RGBColor.cpp */; };
+		7D2864F12109A326003A3B9F /* SpherePartConvex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864802109A31E003A3B9F /* SpherePartConvex.cpp */; };
+		7D2864F22109A326003A3B9F /* Archway.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864812109A31E003A3B9F /* Archway.cpp */; };
+		7D2864F32109A326003A3B9F /* FlatMeshTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864822109A31E003A3B9F /* FlatMeshTriangle.cpp */; };
+		7D2864F42109A326003A3B9F /* SphereChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864832109A31F003A3B9F /* SphereChecker.cpp */; };
+		7D2864F52109A326003A3B9F /* SV_Reflective.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864842109A31F003A3B9F /* SV_Reflective.cpp */; };
+		7D2864F62109A326003A3B9F /* ply.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864852109A31F003A3B9F /* ply.c */; };
+		7D2864F72109A326003A3B9F /* BeveledBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864862109A31F003A3B9F /* BeveledBox.cpp */; };
+		7D2864F82109A326003A3B9F /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864872109A31F003A3B9F /* Instance.cpp */; };
+		7D2864F92109A326003A3B9F /* PathTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864882109A320003A3B9F /* PathTrace.cpp */; };
+		7D2864FA2109A326003A3B9F /* Whitted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864892109A320003A3B9F /* Whitted.cpp */; };
+		7D2864FB2109A326003A3B9F /* LatticeNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648A2109A320003A3B9F /* LatticeNoise.cpp */; };
+		7D2864FC2109A326003A3B9F /* FishBowl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648B2109A320003A3B9F /* FishBowl.cpp */; };
+		7D2864FD2109A326003A3B9F /* Point3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648C2109A320003A3B9F /* Point3D.cpp */; };
+		7D2864FE2109A326003A3B9F /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648D2109A320003A3B9F /* Matrix.cpp */; };
+		7D2864FF2109A326003A3B9F /* OpenCylinderConcave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648E2109A321003A3B9F /* OpenCylinderConcave.cpp */; };
+		7D2865002109A326003A3B9F /* Matte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28648F2109A321003A3B9F /* Matte.cpp */; };
+		7D2865012109A326003A3B9F /* TorusPartConvex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864902109A321003A3B9F /* TorusPartConvex.cpp */; };
+		7D2865022109A326003A3B9F /* OpenCylinderPartConvex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864912109A321003A3B9F /* OpenCylinderPartConvex.cpp */; };
+		7D2865032109A326003A3B9F /* MultiJittered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864922109A321003A3B9F /* MultiJittered.cpp */; };
+		7D2865042109A326003A3B9F /* OpenCylinderConvex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864932109A321003A3B9F /* OpenCylinderConvex.cpp */; };
+		7D2865052109A326003A3B9F /* InstanceTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864942109A322003A3B9F /* InstanceTexture.cpp */; };
+		7D2865062109A326003A3B9F /* SphericalMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864952109A322003A3B9F /* SphericalMap.cpp */; };
+		7D2865072109A326003A3B9F /* BeveledWedge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864962109A322003A3B9F /* BeveledWedge.cpp */; };
+		7D2865082109A326003A3B9F /* AreaLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864972109A322003A3B9F /* AreaLight.cpp */; };
+		7D2865092109A326003A3B9F /* CubicNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864982109A323003A3B9F /* CubicNoise.cpp */; };
+		7D28650A2109A326003A3B9F /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864992109A323003A3B9F /* Sphere.cpp */; };
+		7D28650B2109A326003A3B9F /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649A2109A323003A3B9F /* Material.cpp */; };
+		7D28650C2109A326003A3B9F /* Globe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649B2109A323003A3B9F /* Globe.cpp */; };
+		7D28650D2109A326003A3B9F /* Ambient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649C2109A323003A3B9F /* Ambient.cpp */; };
+		7D28650E2109A326003A3B9F /* ShadeRec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649D2109A323003A3B9F /* ShadeRec.cpp */; };
+		7D28650F2109A326003A3B9F /* SmoothTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649E2109A324003A3B9F /* SmoothTriangle.cpp */; };
+		7D2865102109A326003A3B9F /* TorusPartConcave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D28649F2109A324003A3B9F /* TorusPartConcave.cpp */; };
+		7D2865112109A326003A3B9F /* PerfectTransmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A02109A324003A3B9F /* PerfectTransmitter.cpp */; };
+		7D2865122109A326003A3B9F /* AmbientOccluder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A12109A324003A3B9F /* AmbientOccluder.cpp */; };
+		7D2865132109A326003A3B9F /* ImageTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A22109A325003A3B9F /* ImageTexture.cpp */; };
+		7D2865142109A326003A3B9F /* Directional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A32109A325003A3B9F /* Directional.cpp */; };
+		7D2865152109A326003A3B9F /* SV_Phong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A42109A325003A3B9F /* SV_Phong.cpp */; };
+		7D2865162109A326003A3B9F /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A52109A325003A3B9F /* Triangle.cpp */; };
+		7D2865172109A326003A3B9F /* BTDF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2864A62109A326003A3B9F /* BTDF.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +138,232 @@
 /* Begin PBXFileReference section */
 		7D2862D52109A0BD003A3B9F /* RayTraceGroundUp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTraceGroundUp; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2862D82109A0BD003A3B9F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D2864362109A2F2003A3B9F /* OpenCylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCylinder.cpp; sourceTree = "<group>"; };
+		7D2864372109A2F3003A3B9F /* Transparent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transparent.cpp; sourceTree = "<group>"; };
+		7D2864382109A301003A3B9F /* BRDF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BRDF.cpp; sourceTree = "<group>"; };
+		7D2864392109A302003A3B9F /* LinearNoise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNoise.cpp; sourceTree = "<group>"; };
+		7D28643A2109A302003A3B9F /* Maths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maths.cpp; sourceTree = "<group>"; };
+		7D28643B2109A303003A3B9F /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
+		7D28643C2109A303003A3B9F /* FBmTextureWrapped.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBmTextureWrapped.cpp; sourceTree = "<group>"; };
+		7D28643D2109A303003A3B9F /* Grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = "<group>"; };
+		7D28643E2109A304003A3B9F /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		7D28643F2109A304003A3B9F /* TurbulenceTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TurbulenceTexture.cpp; sourceTree = "<group>"; };
+		7D2864402109A304003A3B9F /* SV_PlaneChecker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_PlaneChecker.cpp; sourceTree = "<group>"; };
+		7D2864412109A305003A3B9F /* SmoothMeshTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmoothMeshTriangle.cpp; sourceTree = "<group>"; };
+		7D2864422109A305003A3B9F /* GlossyReflector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GlossyReflector.cpp; sourceTree = "<group>"; };
+		7D2864432109A305003A3B9F /* RayCast.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RayCast.cpp; sourceTree = "<group>"; };
+		7D2864442109A306003A3B9F /* Emissive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Emissive.cpp; sourceTree = "<group>"; };
+		7D2864452109A306003A3B9F /* Checker3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Checker3D.cpp; sourceTree = "<group>"; };
+		7D2864462109A307003A3B9F /* Dielectric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dielectric.cpp; sourceTree = "<group>"; };
+		7D2864472109A307003A3B9F /* MeshTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MeshTriangle.cpp; sourceTree = "<group>"; };
+		7D2864482109A307003A3B9F /* SV_Matte.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_Matte.cpp; sourceTree = "<group>"; };
+		7D2864492109A308003A3B9F /* Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		7D28644A2109A308003A3B9F /* Normal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Normal.cpp; sourceTree = "<group>"; };
+		7D28644B2109A308003A3B9F /* Tracer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tracer.cpp; sourceTree = "<group>"; };
+		7D28644C2109A309003A3B9F /* FBmTextureRamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBmTextureRamp.cpp; sourceTree = "<group>"; };
+		7D28644D2109A309003A3B9F /* SV_GlossyReflector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_GlossyReflector.cpp; sourceTree = "<group>"; };
+		7D28644E2109A309003A3B9F /* SV_Lambertian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_Lambertian.cpp; sourceTree = "<group>"; };
+		7D28644F2109A30A003A3B9F /* TorusPart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TorusPart.cpp; sourceTree = "<group>"; };
+		7D2864502109A30A003A3B9F /* FresnelTransmitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FresnelTransmitter.cpp; sourceTree = "<group>"; };
+		7D2864512109A30A003A3B9F /* SphereConcave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SphereConcave.cpp; sourceTree = "<group>"; };
+		7D2864522109A30B003A3B9F /* Wood.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wood.cpp; sourceTree = "<group>"; };
+		7D2864532109A30B003A3B9F /* PlaneChecker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlaneChecker.cpp; sourceTree = "<group>"; };
+		7D2864542109A30B003A3B9F /* Annulus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Annulus.cpp; sourceTree = "<group>"; };
+		7D2864552109A30C003A3B9F /* Point2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point2D.cpp; sourceTree = "<group>"; };
+		7D2864562109A30C003A3B9F /* Torus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Torus.cpp; sourceTree = "<group>"; };
+		7D2864572109A30C003A3B9F /* World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		7D2864582109A30D003A3B9F /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		7D2864592109A30D003A3B9F /* SV_Emissive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_Emissive.cpp; sourceTree = "<group>"; };
+		7D28645A2109A30E003A3B9F /* Pinhole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pinhole.cpp; sourceTree = "<group>"; };
+		7D28645B2109A30E003A3B9F /* SpherePartConcave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpherePartConcave.cpp; sourceTree = "<group>"; };
+		7D28645C2109A30E003A3B9F /* Compound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Compound.cpp; sourceTree = "<group>"; };
+		7D28645D2109A30F003A3B9F /* SmoothUVMeshTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmoothUVMeshTriangle.cpp; sourceTree = "<group>"; };
+		7D28645E2109A30F003A3B9F /* AreaLighting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AreaLighting.cpp; sourceTree = "<group>"; };
+		7D28645F2109A30F003A3B9F /* Mapping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mapping.cpp; sourceTree = "<group>"; };
+		7D2864602109A310003A3B9F /* Lambertian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lambertian.cpp; sourceTree = "<group>"; };
+		7D2864612109A310003A3B9F /* FlatUVMeshTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlatUVMeshTriangle.cpp; sourceTree = "<group>"; };
+		7D2864622109A310003A3B9F /* GlobalTrace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalTrace.cpp; sourceTree = "<group>"; };
+		7D2864632109A311003A3B9F /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Light.cpp; sourceTree = "<group>"; };
+		7D2864642109A311003A3B9F /* SV_PerfectSpecular.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_PerfectSpecular.cpp; sourceTree = "<group>"; };
+		7D2864652109A311003A3B9F /* GeometricObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometricObject.cpp; sourceTree = "<group>"; };
+		7D2864662109A312003A3B9F /* ViewPlane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ViewPlane.cpp; sourceTree = "<group>"; };
+		7D2864672109A312003A3B9F /* OpenCylinderPartConcave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCylinderPartConcave.cpp; sourceTree = "<group>"; };
+		7D2864682109A313003A3B9F /* PointLight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointLight.cpp; sourceTree = "<group>"; };
+		7D2864692109A313003A3B9F /* SolidCylinderChecker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolidCylinderChecker.cpp; sourceTree = "<group>"; };
+		7D28646A2109A313003A3B9F /* Reflective.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Reflective.cpp; sourceTree = "<group>"; };
+		7D28646B2109A314003A3B9F /* Vector3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3D.cpp; sourceTree = "<group>"; };
+		7D28646C2109A314003A3B9F /* SV_GlossySpecular.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_GlossySpecular.cpp; sourceTree = "<group>"; };
+		7D28646D2109A314003A3B9F /* FresnelReflector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FresnelReflector.cpp; sourceTree = "<group>"; };
+		7D28646E2109A315003A3B9F /* ConstantColor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConstantColor.cpp; sourceTree = "<group>"; };
+		7D28646F2109A315003A3B9F /* Disk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Disk.cpp; sourceTree = "<group>"; };
+		7D2864702109A315003A3B9F /* GlassOfWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GlassOfWater.cpp; sourceTree = "<group>"; };
+		7D2864712109A316003A3B9F /* BBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BBox.cpp; sourceTree = "<group>"; };
+		7D2864722109A316003A3B9F /* Texture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		7D2864732109A316003A3B9F /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		7D2864742109A317003A3B9F /* SolidCylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolidCylinder.cpp; sourceTree = "<group>"; };
+		7D2864752109A317003A3B9F /* BuildShadedObjects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuildShadedObjects.cpp; sourceTree = "<group>"; };
+		7D2864762109A31B003A3B9F /* FishBowlFlatBottom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FishBowlFlatBottom.cpp; sourceTree = "<group>"; };
+		7D2864772109A31C003A3B9F /* Ray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		7D2864782109A31C003A3B9F /* Rosette.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rosette.cpp; sourceTree = "<group>"; };
+		7D2864792109A31D003A3B9F /* Phong.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Phong.cpp; sourceTree = "<group>"; };
+		7D28647A2109A31D003A3B9F /* Sampler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sampler.cpp; sourceTree = "<group>"; };
+		7D28647B2109A31D003A3B9F /* AnnulusPart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnnulusPart.cpp; sourceTree = "<group>"; };
+		7D28647C2109A31D003A3B9F /* PerfectSpecular.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PerfectSpecular.cpp; sourceTree = "<group>"; };
+		7D28647D2109A31E003A3B9F /* GlossySpecular.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GlossySpecular.cpp; sourceTree = "<group>"; };
+		7D28647E2109A31E003A3B9F /* FBmTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBmTexture.cpp; sourceTree = "<group>"; };
+		7D28647F2109A31E003A3B9F /* RGBColor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RGBColor.cpp; sourceTree = "<group>"; };
+		7D2864802109A31E003A3B9F /* SpherePartConvex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpherePartConvex.cpp; sourceTree = "<group>"; };
+		7D2864812109A31E003A3B9F /* Archway.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Archway.cpp; sourceTree = "<group>"; };
+		7D2864822109A31E003A3B9F /* FlatMeshTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlatMeshTriangle.cpp; sourceTree = "<group>"; };
+		7D2864832109A31F003A3B9F /* SphereChecker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SphereChecker.cpp; sourceTree = "<group>"; };
+		7D2864842109A31F003A3B9F /* SV_Reflective.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_Reflective.cpp; sourceTree = "<group>"; };
+		7D2864852109A31F003A3B9F /* ply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ply.c; sourceTree = "<group>"; };
+		7D2864862109A31F003A3B9F /* BeveledBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BeveledBox.cpp; sourceTree = "<group>"; };
+		7D2864872109A31F003A3B9F /* Instance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
+		7D2864882109A320003A3B9F /* PathTrace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PathTrace.cpp; sourceTree = "<group>"; };
+		7D2864892109A320003A3B9F /* Whitted.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Whitted.cpp; sourceTree = "<group>"; };
+		7D28648A2109A320003A3B9F /* LatticeNoise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LatticeNoise.cpp; sourceTree = "<group>"; };
+		7D28648B2109A320003A3B9F /* FishBowl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FishBowl.cpp; sourceTree = "<group>"; };
+		7D28648C2109A320003A3B9F /* Point3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point3D.cpp; sourceTree = "<group>"; };
+		7D28648D2109A320003A3B9F /* Matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		7D28648E2109A321003A3B9F /* OpenCylinderConcave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCylinderConcave.cpp; sourceTree = "<group>"; };
+		7D28648F2109A321003A3B9F /* Matte.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matte.cpp; sourceTree = "<group>"; };
+		7D2864902109A321003A3B9F /* TorusPartConvex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TorusPartConvex.cpp; sourceTree = "<group>"; };
+		7D2864912109A321003A3B9F /* OpenCylinderPartConvex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCylinderPartConvex.cpp; sourceTree = "<group>"; };
+		7D2864922109A321003A3B9F /* MultiJittered.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiJittered.cpp; sourceTree = "<group>"; };
+		7D2864932109A321003A3B9F /* OpenCylinderConvex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCylinderConvex.cpp; sourceTree = "<group>"; };
+		7D2864942109A322003A3B9F /* InstanceTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InstanceTexture.cpp; sourceTree = "<group>"; };
+		7D2864952109A322003A3B9F /* SphericalMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SphericalMap.cpp; sourceTree = "<group>"; };
+		7D2864962109A322003A3B9F /* BeveledWedge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BeveledWedge.cpp; sourceTree = "<group>"; };
+		7D2864972109A322003A3B9F /* AreaLight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AreaLight.cpp; sourceTree = "<group>"; };
+		7D2864982109A323003A3B9F /* CubicNoise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CubicNoise.cpp; sourceTree = "<group>"; };
+		7D2864992109A323003A3B9F /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		7D28649A2109A323003A3B9F /* Material.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		7D28649B2109A323003A3B9F /* Globe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Globe.cpp; sourceTree = "<group>"; };
+		7D28649C2109A323003A3B9F /* Ambient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ambient.cpp; sourceTree = "<group>"; };
+		7D28649D2109A323003A3B9F /* ShadeRec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShadeRec.cpp; sourceTree = "<group>"; };
+		7D28649E2109A324003A3B9F /* SmoothTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SmoothTriangle.cpp; sourceTree = "<group>"; };
+		7D28649F2109A324003A3B9F /* TorusPartConcave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TorusPartConcave.cpp; sourceTree = "<group>"; };
+		7D2864A02109A324003A3B9F /* PerfectTransmitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PerfectTransmitter.cpp; sourceTree = "<group>"; };
+		7D2864A12109A324003A3B9F /* AmbientOccluder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmbientOccluder.cpp; sourceTree = "<group>"; };
+		7D2864A22109A325003A3B9F /* ImageTexture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImageTexture.cpp; sourceTree = "<group>"; };
+		7D2864A32109A325003A3B9F /* Directional.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Directional.cpp; sourceTree = "<group>"; };
+		7D2864A42109A325003A3B9F /* SV_Phong.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SV_Phong.cpp; sourceTree = "<group>"; };
+		7D2864A52109A325003A3B9F /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		7D2864A62109A326003A3B9F /* BTDF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BTDF.cpp; sourceTree = "<group>"; };
+		7D2865182109A375003A3B9F /* FlatUVMeshTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUVMeshTriangle.h; sourceTree = "<group>"; };
+		7D2865192109A375003A3B9F /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		7D28651A2109A375003A3B9F /* Dielectric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dielectric.h; sourceTree = "<group>"; };
+		7D28651B2109A375003A3B9F /* TorusPartConcave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorusPartConcave.h; sourceTree = "<group>"; };
+		7D28651C2109A376003A3B9F /* SV_PerfectSpecular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_PerfectSpecular.h; sourceTree = "<group>"; };
+		7D28651D2109A377003A3B9F /* PerfectTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectTransmitter.h; sourceTree = "<group>"; };
+		7D28651E2109A377003A3B9F /* Rosette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rosette.h; sourceTree = "<group>"; };
+		7D28651F2109A377003A3B9F /* SphericalMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalMap.h; sourceTree = "<group>"; };
+		7D2865202109A377003A3B9F /* BeveledBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeveledBox.h; sourceTree = "<group>"; };
+		7D2865212109A377003A3B9F /* Matte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matte.h; sourceTree = "<group>"; };
+		7D2865222109A378003A3B9F /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		7D2865232109A378003A3B9F /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		7D2865242109A378003A3B9F /* SV_Reflective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_Reflective.h; sourceTree = "<group>"; };
+		7D2865262109A379003A3B9F /* AmbientOccluder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmbientOccluder.h; sourceTree = "<group>"; };
+		7D2865272109A379003A3B9F /* FlatMeshTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatMeshTriangle.h; sourceTree = "<group>"; };
+		7D2865282109A379003A3B9F /* BeveledWedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeveledWedge.h; sourceTree = "<group>"; };
+		7D2865292109A379003A3B9F /* AreaLighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaLighting.h; sourceTree = "<group>"; };
+		7D28652A2109A37A003A3B9F /* AreaLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaLight.h; sourceTree = "<group>"; };
+		7D28652B2109A37A003A3B9F /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		7D28652C2109A37B003A3B9F /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		7D28652D2109A37B003A3B9F /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		7D28652E2109A37B003A3B9F /* LatticeNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatticeNoise.h; sourceTree = "<group>"; };
+		7D28652F2109A37C003A3B9F /* SolidCylinderChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidCylinderChecker.h; sourceTree = "<group>"; };
+		7D2865302109A37C003A3B9F /* InstanceTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceTexture.h; sourceTree = "<group>"; };
+		7D2865312109A37C003A3B9F /* SpherePartConcave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpherePartConcave.h; sourceTree = "<group>"; };
+		7D2865322109A37C003A3B9F /* GeometricObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometricObject.h; sourceTree = "<group>"; };
+		7D2865332109A37D003A3B9F /* ply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ply.h; sourceTree = "<group>"; };
+		7D2865342109A37D003A3B9F /* MeshTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshTriangle.h; sourceTree = "<group>"; };
+		7D2865352109A37D003A3B9F /* SphereConcave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereConcave.h; sourceTree = "<group>"; };
+		7D2865362109A37D003A3B9F /* FishBowl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishBowl.h; sourceTree = "<group>"; };
+		7D2865372109A37E003A3B9F /* SV_Lambertian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_Lambertian.h; sourceTree = "<group>"; };
+		7D2865382109A37E003A3B9F /* GlobalTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTrace.h; sourceTree = "<group>"; };
+		7D2865392109A37E003A3B9F /* SmoothTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothTriangle.h; sourceTree = "<group>"; };
+		7D28653A2109A37E003A3B9F /* Sampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sampler.h; sourceTree = "<group>"; };
+		7D28653B2109A37E003A3B9F /* CubicNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicNoise.h; sourceTree = "<group>"; };
+		7D28653C2109A37F003A3B9F /* Instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instance.h; sourceTree = "<group>"; };
+		7D28653D2109A37F003A3B9F /* PointLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointLight.h; sourceTree = "<group>"; };
+		7D28653E2109A37F003A3B9F /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		7D28653F2109A37F003A3B9F /* SV_Phong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_Phong.h; sourceTree = "<group>"; };
+		7D2865402109A380003A3B9F /* Directional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Directional.h; sourceTree = "<group>"; };
+		7D2865412109A380003A3B9F /* Compound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compound.h; sourceTree = "<group>"; };
+		7D2865422109A380003A3B9F /* FBmTextureWrapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBmTextureWrapped.h; sourceTree = "<group>"; };
+		7D2865432109A380003A3B9F /* RayCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RayCast.h; sourceTree = "<group>"; };
+		7D2865442109A381003A3B9F /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		7D2865452109A381003A3B9F /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		7D2865462109A381003A3B9F /* FBmTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBmTexture.h; sourceTree = "<group>"; };
+		7D2865472109A381003A3B9F /* Emissive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emissive.h; sourceTree = "<group>"; };
+		7D2865482109A382003A3B9F /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		7D2865492109A382003A3B9F /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		7D28654A2109A382003A3B9F /* Transparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transparent.h; sourceTree = "<group>"; };
+		7D28654B2109A382003A3B9F /* Lambertian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lambertian.h; sourceTree = "<group>"; };
+		7D28654C2109A383003A3B9F /* Ambient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ambient.h; sourceTree = "<group>"; };
+		7D28654D2109A383003A3B9F /* ConstantColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantColor.h; sourceTree = "<group>"; };
+		7D28654E2109A384003A3B9F /* GlossySpecular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossySpecular.h; sourceTree = "<group>"; };
+		7D28654F2109A384003A3B9F /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		7D2865502109A384003A3B9F /* PerfectSpecular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectSpecular.h; sourceTree = "<group>"; };
+		7D2865512109A385003A3B9F /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		7D2865522109A386003A3B9F /* Annulus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annulus.h; sourceTree = "<group>"; };
+		7D2865532109A387003A3B9F /* OpenCylinderPartConvex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCylinderPartConvex.h; sourceTree = "<group>"; };
+		7D2865542109A387003A3B9F /* SphereChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereChecker.h; sourceTree = "<group>"; };
+		7D2865552109A387003A3B9F /* OpenCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCylinder.h; sourceTree = "<group>"; };
+		7D2865562109A387003A3B9F /* FBmTextureRamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBmTextureRamp.h; sourceTree = "<group>"; };
+		7D2865572109A388003A3B9F /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		7D2865582109A388003A3B9F /* ShadeRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadeRec.h; sourceTree = "<group>"; };
+		7D2865592109A389003A3B9F /* SV_Emissive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_Emissive.h; sourceTree = "<group>"; };
+		7D28655A2109A389003A3B9F /* TurbulenceTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurbulenceTexture.h; sourceTree = "<group>"; };
+		7D28655B2109A389003A3B9F /* TorusPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorusPart.h; sourceTree = "<group>"; };
+		7D28655C2109A38A003A3B9F /* Archway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archway.h; sourceTree = "<group>"; };
+		7D28655D2109A38A003A3B9F /* ImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTexture.h; sourceTree = "<group>"; };
+		7D28655E2109A38A003A3B9F /* Wood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wood.h; sourceTree = "<group>"; };
+		7D28655F2109A38A003A3B9F /* Normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normal.h; sourceTree = "<group>"; };
+		7D2865602109A38B003A3B9F /* OpenCylinderConcave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCylinderConcave.h; sourceTree = "<group>"; };
+		7D2865612109A38B003A3B9F /* GlassOfWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassOfWater.h; sourceTree = "<group>"; };
+		7D2865622109A38B003A3B9F /* Globe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globe.h; sourceTree = "<group>"; };
+		7D2865632109A38C003A3B9F /* TorusPartConvex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorusPartConvex.h; sourceTree = "<group>"; };
+		7D2865642109A38C003A3B9F /* SV_Matte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_Matte.h; sourceTree = "<group>"; };
+		7D2865652109A38C003A3B9F /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3D.h; sourceTree = "<group>"; };
+		7D2865662109A38D003A3B9F /* Checker3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checker3D.h; sourceTree = "<group>"; };
+		7D2865672109A38D003A3B9F /* BBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBox.h; sourceTree = "<group>"; };
+		7D2865682109A38D003A3B9F /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		7D2865692109A38D003A3B9F /* ViewPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPlane.h; sourceTree = "<group>"; };
+		7D28656A2109A38E003A3B9F /* Phong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phong.h; sourceTree = "<group>"; };
+		7D28656B2109A38E003A3B9F /* BRDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDF.h; sourceTree = "<group>"; };
+		7D28656C2109A38E003A3B9F /* Whitted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whitted.h; sourceTree = "<group>"; };
+		7D28656D2109A38F003A3B9F /* PlaneChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneChecker.h; sourceTree = "<group>"; };
+		7D28656E2109A38F003A3B9F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7D28656F2109A38F003A3B9F /* RGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBColor.h; sourceTree = "<group>"; };
+		7D2865702109A38F003A3B9F /* Maths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maths.h; sourceTree = "<group>"; };
+		7D2865712109A390003A3B9F /* FresnelReflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FresnelReflector.h; sourceTree = "<group>"; };
+		7D2865722109A390003A3B9F /* SolidCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidCylinder.h; sourceTree = "<group>"; };
+		7D2865732109A390003A3B9F /* AnnulusPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnulusPart.h; sourceTree = "<group>"; };
+		7D2865742109A390003A3B9F /* Disk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disk.h; sourceTree = "<group>"; };
+		7D2865752109A391003A3B9F /* OpenCylinderConvex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCylinderConvex.h; sourceTree = "<group>"; };
+		7D2865762109A391003A3B9F /* FishBowlFlatBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishBowlFlatBottom.h; sourceTree = "<group>"; };
+		7D2865772109A391003A3B9F /* SpherePartConvex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpherePartConvex.h; sourceTree = "<group>"; };
+		7D2865782109A392003A3B9F /* SV_GlossyReflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_GlossyReflector.h; sourceTree = "<group>"; };
+		7D2865792109A392003A3B9F /* PathTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathTrace.h; sourceTree = "<group>"; };
+		7D28657A2109A392003A3B9F /* FresnelTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FresnelTransmitter.h; sourceTree = "<group>"; };
+		7D28657B2109A392003A3B9F /* SmoothMeshTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMeshTriangle.h; sourceTree = "<group>"; };
+		7D28657C2109A393003A3B9F /* SmoothUVMeshTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothUVMeshTriangle.h; sourceTree = "<group>"; };
+		7D28657D2109A393003A3B9F /* SV_GlossySpecular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_GlossySpecular.h; sourceTree = "<group>"; };
+		7D28657E2109A393003A3B9F /* MultiJittered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiJittered.h; sourceTree = "<group>"; };
+		7D28657F2109A393003A3B9F /* OpenCylinderPartConcave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCylinderPartConcave.h; sourceTree = "<group>"; };
+		7D2865802109A394003A3B9F /* Torus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Torus.h; sourceTree = "<group>"; };
+		7D2865812109A394003A3B9F /* LinearNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearNoise.h; sourceTree = "<group>"; };
+		7D2865822109A394003A3B9F /* BTDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDF.h; sourceTree = "<group>"; };
+		7D2865832109A395003A3B9F /* GlossyReflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossyReflector.h; sourceTree = "<group>"; };
+		7D2865842109A395003A3B9F /* Tracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
+		7D2865852109A395003A3B9F /* Pinhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pinhole.h; sourceTree = "<group>"; };
+		7D2865862109A395003A3B9F /* SV_PlaneChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SV_PlaneChecker.h; sourceTree = "<group>"; };
+		7D2865872109A396003A3B9F /* Point2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2D.h; sourceTree = "<group>"; };
+		7D2865882109A396003A3B9F /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		7D2865892109A396003A3B9F /* Reflective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reflective.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +380,9 @@
 		7D2862CC2109A0BD003A3B9F = {
 			isa = PBXGroup;
 			children = (
-				7D2862D72109A0BD003A3B9F /* RayTraceGroundUp */,
+				7D28658A2109A53F003A3B9F /* include */,
+				7D28658C2109A63C003A3B9F /* src */,
+				7D2862D82109A0BD003A3B9F /* main.cpp */,
 				7D2862D62109A0BD003A3B9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +395,420 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D2862D72109A0BD003A3B9F /* RayTraceGroundUp */ = {
+		7D28658A2109A53F003A3B9F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				7D2862D82109A0BD003A3B9F /* main.cpp */,
+				7D2865912109A726003A3B9F /* brdf */,
+				7D2865922109A735003A3B9F /* camera */,
+				7D28658D2109A6BE003A3B9F /* light */,
+				7D2865962109A89B003A3B9F /* mapping */,
+				7D2865952109A774003A3B9F /* material */,
+				7D2865902109A705003A3B9F /* misc */,
+				7D2865942109A765003A3B9F /* noise */,
+				7D28658E2109A6D4003A3B9F /* object */,
+				7D2865972109A8CC003A3B9F /* sampler */,
+				7D2865932109A749003A3B9F /* texture */,
+				7D28658F2109A6F0003A3B9F /* tracer */,
 			);
-			path = RayTraceGroundUp;
+			path = include;
+			sourceTree = "<group>";
+		};
+		7D28658C2109A63C003A3B9F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7D28659C2109AAB8003A3B9F /* brdf */,
+				7D2864752109A317003A3B9F /* BuildShadedObjects.cpp */,
+				7D28659D2109AAE3003A3B9F /* camera */,
+				7D2865982109AA73003A3B9F /* light */,
+				7D2865A22109ABA2003A3B9F /* mapping */,
+				7D2865A02109AB10003A3B9F /* material */,
+				7D28659B2109AAA7003A3B9F /* misc */,
+				7D28659F2109AB04003A3B9F /* noise */,
+				7D2865992109AA83003A3B9F /* object */,
+				7D2865A32109ABE2003A3B9F /* sampler */,
+				7D28659E2109AAEE003A3B9F /* texture */,
+				7D28659A2109AA99003A3B9F /* tracer */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7D28658D2109A6BE003A3B9F /* light */ = {
+			isa = PBXGroup;
+			children = (
+				7D28654C2109A383003A3B9F /* Ambient.h */,
+				7D2865262109A379003A3B9F /* AmbientOccluder.h */,
+				7D28652A2109A37A003A3B9F /* AreaLight.h */,
+				7D2865402109A380003A3B9F /* Directional.h */,
+				7D2865492109A382003A3B9F /* Light.h */,
+				7D28653D2109A37F003A3B9F /* PointLight.h */,
+			);
+			path = light;
+			sourceTree = "<group>";
+		};
+		7D28658E2109A6D4003A3B9F /* object */ = {
+			isa = PBXGroup;
+			children = (
+				7D2865522109A386003A3B9F /* Annulus.h */,
+				7D2865732109A390003A3B9F /* AnnulusPart.h */,
+				7D28655C2109A38A003A3B9F /* Archway.h */,
+				7D2865202109A377003A3B9F /* BeveledBox.h */,
+				7D2865282109A379003A3B9F /* BeveledWedge.h */,
+				7D2865412109A380003A3B9F /* Compound.h */,
+				7D2865742109A390003A3B9F /* Disk.h */,
+				7D2865362109A37D003A3B9F /* FishBowl.h */,
+				7D2865762109A391003A3B9F /* FishBowlFlatBottom.h */,
+				7D2865272109A379003A3B9F /* FlatMeshTriangle.h */,
+				7D2865182109A375003A3B9F /* FlatUVMeshTriangle.h */,
+				7D2865322109A37C003A3B9F /* GeometricObject.h */,
+				7D2865612109A38B003A3B9F /* GlassOfWater.h */,
+				7D2865622109A38B003A3B9F /* Globe.h */,
+				7D28653E2109A37F003A3B9F /* Grid.h */,
+				7D28653C2109A37F003A3B9F /* Instance.h */,
+				7D2865572109A388003A3B9F /* Mesh.h */,
+				7D2865342109A37D003A3B9F /* MeshTriangle.h */,
+				7D2865552109A387003A3B9F /* OpenCylinder.h */,
+				7D2865602109A38B003A3B9F /* OpenCylinderConcave.h */,
+				7D2865752109A391003A3B9F /* OpenCylinderConvex.h */,
+				7D28657F2109A393003A3B9F /* OpenCylinderPartConcave.h */,
+				7D2865532109A387003A3B9F /* OpenCylinderPartConvex.h */,
+				7D28652B2109A37A003A3B9F /* Plane.h */,
+				7D2865442109A381003A3B9F /* Rectangle.h */,
+				7D28651E2109A377003A3B9F /* Rosette.h */,
+				7D28657B2109A392003A3B9F /* SmoothMeshTriangle.h */,
+				7D2865392109A37E003A3B9F /* SmoothTriangle.h */,
+				7D28657C2109A393003A3B9F /* SmoothUVMeshTriangle.h */,
+				7D2865722109A390003A3B9F /* SolidCylinder.h */,
+				7D2865682109A38D003A3B9F /* Sphere.h */,
+				7D2865352109A37D003A3B9F /* SphereConcave.h */,
+				7D2865312109A37C003A3B9F /* SpherePartConcave.h */,
+				7D2865772109A391003A3B9F /* SpherePartConvex.h */,
+				7D2865802109A394003A3B9F /* Torus.h */,
+				7D28655B2109A389003A3B9F /* TorusPart.h */,
+				7D28651B2109A375003A3B9F /* TorusPartConcave.h */,
+				7D2865632109A38C003A3B9F /* TorusPartConvex.h */,
+				7D2865452109A381003A3B9F /* Triangle.h */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		7D28658F2109A6F0003A3B9F /* tracer */ = {
+			isa = PBXGroup;
+			children = (
+				7D2865292109A379003A3B9F /* AreaLighting.h */,
+				7D2865382109A37E003A3B9F /* GlobalTrace.h */,
+				7D2865792109A392003A3B9F /* PathTrace.h */,
+				7D2865432109A380003A3B9F /* RayCast.h */,
+				7D2865842109A395003A3B9F /* Tracer.h */,
+				7D28656C2109A38E003A3B9F /* Whitted.h */,
+			);
+			path = tracer;
+			sourceTree = "<group>";
+		};
+		7D2865902109A705003A3B9F /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				7D2865332109A37D003A3B9F /* ply.h */,
+				7D2865672109A38D003A3B9F /* BBox.h */,
+				7D28656E2109A38F003A3B9F /* Constants.h */,
+				7D28652C2109A37B003A3B9F /* Image.h */,
+				7D2865702109A38F003A3B9F /* Maths.h */,
+				7D2865232109A378003A3B9F /* Matrix.h */,
+				7D28655F2109A38A003A3B9F /* Normal.h */,
+				7D2865872109A396003A3B9F /* Point2D.h */,
+				7D2865512109A385003A3B9F /* Point3D.h */,
+				7D28654F2109A384003A3B9F /* Ray.h */,
+				7D28656F2109A38F003A3B9F /* RGBColor.h */,
+				7D2865582109A388003A3B9F /* ShadeRec.h */,
+				7D2865652109A38C003A3B9F /* Vector3D.h */,
+				7D2865692109A38D003A3B9F /* ViewPlane.h */,
+				7D2865222109A378003A3B9F /* World.h */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		7D2865912109A726003A3B9F /* brdf */ = {
+			isa = PBXGroup;
+			children = (
+				7D28656B2109A38E003A3B9F /* BRDF.h */,
+				7D2865822109A394003A3B9F /* BTDF.h */,
+				7D2865712109A390003A3B9F /* FresnelReflector.h */,
+				7D28657A2109A392003A3B9F /* FresnelTransmitter.h */,
+				7D28654E2109A384003A3B9F /* GlossySpecular.h */,
+				7D28654B2109A382003A3B9F /* Lambertian.h */,
+				7D2865502109A384003A3B9F /* PerfectSpecular.h */,
+				7D28651D2109A377003A3B9F /* PerfectTransmitter.h */,
+			);
+			path = brdf;
+			sourceTree = "<group>";
+		};
+		7D2865922109A735003A3B9F /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				7D2865192109A375003A3B9F /* Camera.h */,
+				7D2865852109A395003A3B9F /* Pinhole.h */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		7D2865932109A749003A3B9F /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				7D2865662109A38D003A3B9F /* Checker3D.h */,
+				7D28654D2109A383003A3B9F /* ConstantColor.h */,
+				7D2865462109A381003A3B9F /* FBmTexture.h */,
+				7D2865562109A387003A3B9F /* FBmTextureRamp.h */,
+				7D2865422109A380003A3B9F /* FBmTextureWrapped.h */,
+				7D28655D2109A38A003A3B9F /* ImageTexture.h */,
+				7D2865302109A37C003A3B9F /* InstanceTexture.h */,
+				7D28656D2109A38F003A3B9F /* PlaneChecker.h */,
+				7D28652F2109A37C003A3B9F /* SolidCylinderChecker.h */,
+				7D2865542109A387003A3B9F /* SphereChecker.h */,
+				7D2865882109A396003A3B9F /* Texture.h */,
+				7D28655A2109A389003A3B9F /* TurbulenceTexture.h */,
+				7D28655E2109A38A003A3B9F /* Wood.h */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		7D2865942109A765003A3B9F /* noise */ = {
+			isa = PBXGroup;
+			children = (
+				7D28653B2109A37E003A3B9F /* CubicNoise.h */,
+				7D28652E2109A37B003A3B9F /* LatticeNoise.h */,
+				7D2865812109A394003A3B9F /* LinearNoise.h */,
+			);
+			path = noise;
+			sourceTree = "<group>";
+		};
+		7D2865952109A774003A3B9F /* material */ = {
+			isa = PBXGroup;
+			children = (
+				7D28651A2109A375003A3B9F /* Dielectric.h */,
+				7D2865472109A381003A3B9F /* Emissive.h */,
+				7D2865832109A395003A3B9F /* GlossyReflector.h */,
+				7D2865482109A382003A3B9F /* Material.h */,
+				7D2865212109A377003A3B9F /* Matte.h */,
+				7D28656A2109A38E003A3B9F /* Phong.h */,
+				7D2865892109A396003A3B9F /* Reflective.h */,
+				7D2865592109A389003A3B9F /* SV_Emissive.h */,
+				7D2865782109A392003A3B9F /* SV_GlossyReflector.h */,
+				7D28657D2109A393003A3B9F /* SV_GlossySpecular.h */,
+				7D2865372109A37E003A3B9F /* SV_Lambertian.h */,
+				7D2865642109A38C003A3B9F /* SV_Matte.h */,
+				7D28651C2109A376003A3B9F /* SV_PerfectSpecular.h */,
+				7D28653F2109A37F003A3B9F /* SV_Phong.h */,
+				7D2865862109A395003A3B9F /* SV_PlaneChecker.h */,
+				7D2865242109A378003A3B9F /* SV_Reflective.h */,
+				7D28654A2109A382003A3B9F /* Transparent.h */,
+			);
+			path = material;
+			sourceTree = "<group>";
+		};
+		7D2865962109A89B003A3B9F /* mapping */ = {
+			isa = PBXGroup;
+			children = (
+				7D28652D2109A37B003A3B9F /* Mapping.h */,
+				7D28651F2109A377003A3B9F /* SphericalMap.h */,
+			);
+			path = mapping;
+			sourceTree = "<group>";
+		};
+		7D2865972109A8CC003A3B9F /* sampler */ = {
+			isa = PBXGroup;
+			children = (
+				7D28657E2109A393003A3B9F /* MultiJittered.h */,
+				7D28653A2109A37E003A3B9F /* Sampler.h */,
+			);
+			path = sampler;
+			sourceTree = "<group>";
+		};
+		7D2865982109AA73003A3B9F /* light */ = {
+			isa = PBXGroup;
+			children = (
+				7D28649C2109A323003A3B9F /* Ambient.cpp */,
+				7D2864A12109A324003A3B9F /* AmbientOccluder.cpp */,
+				7D2864972109A322003A3B9F /* AreaLight.cpp */,
+				7D2864A32109A325003A3B9F /* Directional.cpp */,
+				7D2864632109A311003A3B9F /* Light.cpp */,
+				7D2864682109A313003A3B9F /* PointLight.cpp */,
+			);
+			path = light;
+			sourceTree = "<group>";
+		};
+		7D2865992109AA83003A3B9F /* object */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864542109A30B003A3B9F /* Annulus.cpp */,
+				7D28647B2109A31D003A3B9F /* AnnulusPart.cpp */,
+				7D2864812109A31E003A3B9F /* Archway.cpp */,
+				7D2864862109A31F003A3B9F /* BeveledBox.cpp */,
+				7D2864962109A322003A3B9F /* BeveledWedge.cpp */,
+				7D28645C2109A30E003A3B9F /* Compound.cpp */,
+				7D28646F2109A315003A3B9F /* Disk.cpp */,
+				7D28648B2109A320003A3B9F /* FishBowl.cpp */,
+				7D2864762109A31B003A3B9F /* FishBowlFlatBottom.cpp */,
+				7D2864822109A31E003A3B9F /* FlatMeshTriangle.cpp */,
+				7D2864612109A310003A3B9F /* FlatUVMeshTriangle.cpp */,
+				7D2864652109A311003A3B9F /* GeometricObject.cpp */,
+				7D2864702109A315003A3B9F /* GlassOfWater.cpp */,
+				7D28649B2109A323003A3B9F /* Globe.cpp */,
+				7D28643D2109A303003A3B9F /* Grid.cpp */,
+				7D2864872109A31F003A3B9F /* Instance.cpp */,
+				7D28643E2109A304003A3B9F /* Mesh.cpp */,
+				7D2864472109A307003A3B9F /* MeshTriangle.cpp */,
+				7D2864362109A2F2003A3B9F /* OpenCylinder.cpp */,
+				7D28648E2109A321003A3B9F /* OpenCylinderConcave.cpp */,
+				7D2864932109A321003A3B9F /* OpenCylinderConvex.cpp */,
+				7D2864672109A312003A3B9F /* OpenCylinderPartConcave.cpp */,
+				7D2864912109A321003A3B9F /* OpenCylinderPartConvex.cpp */,
+				7D28643B2109A303003A3B9F /* Plane.cpp */,
+				7D2864732109A316003A3B9F /* Rectangle.cpp */,
+				7D2864782109A31C003A3B9F /* Rosette.cpp */,
+				7D2864412109A305003A3B9F /* SmoothMeshTriangle.cpp */,
+				7D28649E2109A324003A3B9F /* SmoothTriangle.cpp */,
+				7D28645D2109A30F003A3B9F /* SmoothUVMeshTriangle.cpp */,
+				7D2864742109A317003A3B9F /* SolidCylinder.cpp */,
+				7D2864992109A323003A3B9F /* Sphere.cpp */,
+				7D2864512109A30A003A3B9F /* SphereConcave.cpp */,
+				7D28645B2109A30E003A3B9F /* SpherePartConcave.cpp */,
+				7D2864802109A31E003A3B9F /* SpherePartConvex.cpp */,
+				7D2864562109A30C003A3B9F /* Torus.cpp */,
+				7D28644F2109A30A003A3B9F /* TorusPart.cpp */,
+				7D28649F2109A324003A3B9F /* TorusPartConcave.cpp */,
+				7D2864902109A321003A3B9F /* TorusPartConvex.cpp */,
+				7D2864A52109A325003A3B9F /* Triangle.cpp */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+		7D28659A2109AA99003A3B9F /* tracer */ = {
+			isa = PBXGroup;
+			children = (
+				7D28645E2109A30F003A3B9F /* AreaLighting.cpp */,
+				7D2864622109A310003A3B9F /* GlobalTrace.cpp */,
+				7D2864882109A320003A3B9F /* PathTrace.cpp */,
+				7D2864432109A305003A3B9F /* RayCast.cpp */,
+				7D28644B2109A308003A3B9F /* Tracer.cpp */,
+				7D2864892109A320003A3B9F /* Whitted.cpp */,
+			);
+			path = tracer;
+			sourceTree = "<group>";
+		};
+		7D28659B2109AAA7003A3B9F /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864712109A316003A3B9F /* BBox.cpp */,
+				7D2864492109A308003A3B9F /* Image.cpp */,
+				7D28643A2109A302003A3B9F /* Maths.cpp */,
+				7D28648D2109A320003A3B9F /* Matrix.cpp */,
+				7D28644A2109A308003A3B9F /* Normal.cpp */,
+				7D2864852109A31F003A3B9F /* ply.c */,
+				7D2864552109A30C003A3B9F /* Point2D.cpp */,
+				7D28648C2109A320003A3B9F /* Point3D.cpp */,
+				7D2864772109A31C003A3B9F /* Ray.cpp */,
+				7D28647F2109A31E003A3B9F /* RGBColor.cpp */,
+				7D28649D2109A323003A3B9F /* ShadeRec.cpp */,
+				7D28646B2109A314003A3B9F /* Vector3D.cpp */,
+				7D2864662109A312003A3B9F /* ViewPlane.cpp */,
+				7D2864572109A30C003A3B9F /* World.cpp */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		7D28659C2109AAB8003A3B9F /* brdf */ = {
+			isa = PBXGroup;
+			children = (
+				7D28646D2109A314003A3B9F /* FresnelReflector.cpp */,
+				7D2864502109A30A003A3B9F /* FresnelTransmitter.cpp */,
+				7D28647D2109A31E003A3B9F /* GlossySpecular.cpp */,
+				7D2864602109A310003A3B9F /* Lambertian.cpp */,
+				7D28647C2109A31D003A3B9F /* PerfectSpecular.cpp */,
+				7D2864A02109A324003A3B9F /* PerfectTransmitter.cpp */,
+				7D2864A62109A326003A3B9F /* BTDF.cpp */,
+				7D2864382109A301003A3B9F /* BRDF.cpp */,
+			);
+			path = brdf;
+			sourceTree = "<group>";
+		};
+		7D28659D2109AAE3003A3B9F /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864582109A30D003A3B9F /* Camera.cpp */,
+				7D28645A2109A30E003A3B9F /* Pinhole.cpp */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		7D28659E2109AAEE003A3B9F /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864452109A306003A3B9F /* Checker3D.cpp */,
+				7D28646E2109A315003A3B9F /* ConstantColor.cpp */,
+				7D28647E2109A31E003A3B9F /* FBmTexture.cpp */,
+				7D28644C2109A309003A3B9F /* FBmTextureRamp.cpp */,
+				7D28643C2109A303003A3B9F /* FBmTextureWrapped.cpp */,
+				7D2864A22109A325003A3B9F /* ImageTexture.cpp */,
+				7D2864942109A322003A3B9F /* InstanceTexture.cpp */,
+				7D2864532109A30B003A3B9F /* PlaneChecker.cpp */,
+				7D2864692109A313003A3B9F /* SolidCylinderChecker.cpp */,
+				7D2864832109A31F003A3B9F /* SphereChecker.cpp */,
+				7D2864722109A316003A3B9F /* Texture.cpp */,
+				7D28643F2109A304003A3B9F /* TurbulenceTexture.cpp */,
+				7D2864522109A30B003A3B9F /* Wood.cpp */,
+			);
+			path = texture;
+			sourceTree = "<group>";
+		};
+		7D28659F2109AB04003A3B9F /* noise */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864982109A323003A3B9F /* CubicNoise.cpp */,
+				7D28648A2109A320003A3B9F /* LatticeNoise.cpp */,
+				7D2864392109A302003A3B9F /* LinearNoise.cpp */,
+			);
+			path = noise;
+			sourceTree = "<group>";
+		};
+		7D2865A02109AB10003A3B9F /* material */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864462109A307003A3B9F /* Dielectric.cpp */,
+				7D2864442109A306003A3B9F /* Emissive.cpp */,
+				7D2864422109A305003A3B9F /* GlossyReflector.cpp */,
+				7D28649A2109A323003A3B9F /* Material.cpp */,
+				7D28648F2109A321003A3B9F /* Matte.cpp */,
+				7D2864792109A31D003A3B9F /* Phong.cpp */,
+				7D28646A2109A313003A3B9F /* Reflective.cpp */,
+				7D2864592109A30D003A3B9F /* SV_Emissive.cpp */,
+				7D28644D2109A309003A3B9F /* SV_GlossyReflector.cpp */,
+				7D28646C2109A314003A3B9F /* SV_GlossySpecular.cpp */,
+				7D28644E2109A309003A3B9F /* SV_Lambertian.cpp */,
+				7D2864482109A307003A3B9F /* SV_Matte.cpp */,
+				7D2864642109A311003A3B9F /* SV_PerfectSpecular.cpp */,
+				7D2864A42109A325003A3B9F /* SV_Phong.cpp */,
+				7D2864402109A304003A3B9F /* SV_PlaneChecker.cpp */,
+				7D2864842109A31F003A3B9F /* SV_Reflective.cpp */,
+				7D2864372109A2F3003A3B9F /* Transparent.cpp */,
+			);
+			path = material;
+			sourceTree = "<group>";
+		};
+		7D2865A22109ABA2003A3B9F /* mapping */ = {
+			isa = PBXGroup;
+			children = (
+				7D28645F2109A30F003A3B9F /* Mapping.cpp */,
+				7D2864952109A322003A3B9F /* SphericalMap.cpp */,
+			);
+			path = mapping;
+			sourceTree = "<group>";
+		};
+		7D2865A32109ABE2003A3B9F /* sampler */ = {
+			isa = PBXGroup;
+			children = (
+				7D2864922109A321003A3B9F /* MultiJittered.cpp */,
+				7D28647A2109A31D003A3B9F /* Sampler.cpp */,
+			);
+			path = sampler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +867,120 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2865072109A326003A3B9F /* BeveledWedge.cpp in Sources */,
+				7D2864EA2109A326003A3B9F /* Phong.cpp in Sources */,
+				7D2864D42109A326003A3B9F /* Light.cpp in Sources */,
+				7D2865092109A326003A3B9F /* CubicNoise.cpp in Sources */,
+				7D2864B92109A326003A3B9F /* SV_Matte.cpp in Sources */,
+				7D2864C82109A326003A3B9F /* World.cpp in Sources */,
+				7D28650A2109A326003A3B9F /* Sphere.cpp in Sources */,
+				7D2864AE2109A326003A3B9F /* Grid.cpp in Sources */,
+				7D28650C2109A326003A3B9F /* Globe.cpp in Sources */,
+				7D2864FF2109A326003A3B9F /* OpenCylinderConcave.cpp in Sources */,
+				7D2864CC2109A326003A3B9F /* SpherePartConcave.cpp in Sources */,
+				7D2864DF2109A326003A3B9F /* ConstantColor.cpp in Sources */,
+				7D2864CF2109A326003A3B9F /* AreaLighting.cpp in Sources */,
+				7D2864F82109A326003A3B9F /* Instance.cpp in Sources */,
+				7D2864C52109A326003A3B9F /* Annulus.cpp in Sources */,
+				7D2864D52109A326003A3B9F /* SV_PerfectSpecular.cpp in Sources */,
+				7D2864C92109A326003A3B9F /* Camera.cpp in Sources */,
+				7D2864A82109A326003A3B9F /* Transparent.cpp in Sources */,
+				7D2864B52109A326003A3B9F /* Emissive.cpp in Sources */,
+				7D2864C02109A326003A3B9F /* TorusPart.cpp in Sources */,
+				7D2864E72109A326003A3B9F /* FishBowlFlatBottom.cpp in Sources */,
+				7D2864B72109A326003A3B9F /* Dielectric.cpp in Sources */,
+				7D2864E22109A326003A3B9F /* BBox.cpp in Sources */,
+				7D2865062109A326003A3B9F /* SphericalMap.cpp in Sources */,
+				7D2864E32109A326003A3B9F /* Texture.cpp in Sources */,
+				7D2864BF2109A326003A3B9F /* SV_Lambertian.cpp in Sources */,
+				7D2864D82109A326003A3B9F /* OpenCylinderPartConcave.cpp in Sources */,
+				7D2864ED2109A326003A3B9F /* PerfectSpecular.cpp in Sources */,
+				7D2865102109A326003A3B9F /* TorusPartConcave.cpp in Sources */,
+				7D2865012109A326003A3B9F /* TorusPartConvex.cpp in Sources */,
+				7D2864F32109A326003A3B9F /* FlatMeshTriangle.cpp in Sources */,
+				7D28650E2109A326003A3B9F /* ShadeRec.cpp in Sources */,
+				7D2864C62109A326003A3B9F /* Point2D.cpp in Sources */,
+				7D2864AB2109A326003A3B9F /* Maths.cpp in Sources */,
+				7D2864D12109A326003A3B9F /* Lambertian.cpp in Sources */,
+				7D28650B2109A326003A3B9F /* Material.cpp in Sources */,
+				7D2864F92109A326003A3B9F /* PathTrace.cpp in Sources */,
+				7D2864D72109A326003A3B9F /* ViewPlane.cpp in Sources */,
+				7D28650D2109A326003A3B9F /* Ambient.cpp in Sources */,
 				7D2862D92109A0BD003A3B9F /* main.cpp in Sources */,
+				7D2865162109A326003A3B9F /* Triangle.cpp in Sources */,
+				7D2864CB2109A326003A3B9F /* Pinhole.cpp in Sources */,
+				7D2864E62109A326003A3B9F /* BuildShadedObjects.cpp in Sources */,
+				7D2864E92109A326003A3B9F /* Rosette.cpp in Sources */,
+				7D2864B82109A326003A3B9F /* MeshTriangle.cpp in Sources */,
+				7D2865042109A326003A3B9F /* OpenCylinderConvex.cpp in Sources */,
+				7D2865022109A326003A3B9F /* OpenCylinderPartConvex.cpp in Sources */,
+				7D2864E12109A326003A3B9F /* GlassOfWater.cpp in Sources */,
+				7D2865122109A326003A3B9F /* AmbientOccluder.cpp in Sources */,
+				7D2864D62109A326003A3B9F /* GeometricObject.cpp in Sources */,
+				7D2864FA2109A326003A3B9F /* Whitted.cpp in Sources */,
+				7D2865142109A326003A3B9F /* Directional.cpp in Sources */,
+				7D2864F72109A326003A3B9F /* BeveledBox.cpp in Sources */,
+				7D2864DA2109A326003A3B9F /* SolidCylinderChecker.cpp in Sources */,
+				7D2864BB2109A326003A3B9F /* Normal.cpp in Sources */,
+				7D2864F52109A326003A3B9F /* SV_Reflective.cpp in Sources */,
+				7D2865112109A326003A3B9F /* PerfectTransmitter.cpp in Sources */,
+				7D2864AF2109A326003A3B9F /* Mesh.cpp in Sources */,
+				7D2864FB2109A326003A3B9F /* LatticeNoise.cpp in Sources */,
+				7D2864B12109A326003A3B9F /* SV_PlaneChecker.cpp in Sources */,
+				7D2864BE2109A326003A3B9F /* SV_GlossyReflector.cpp in Sources */,
+				7D2864D22109A326003A3B9F /* FlatUVMeshTriangle.cpp in Sources */,
+				7D2864F22109A326003A3B9F /* Archway.cpp in Sources */,
+				7D2864B02109A326003A3B9F /* TurbulenceTexture.cpp in Sources */,
+				7D2864BC2109A326003A3B9F /* Tracer.cpp in Sources */,
+				7D2864F02109A326003A3B9F /* RGBColor.cpp in Sources */,
+				7D2864E82109A326003A3B9F /* Ray.cpp in Sources */,
+				7D2865132109A326003A3B9F /* ImageTexture.cpp in Sources */,
+				7D2864EF2109A326003A3B9F /* FBmTexture.cpp in Sources */,
+				7D2864AA2109A326003A3B9F /* LinearNoise.cpp in Sources */,
+				7D2864DB2109A326003A3B9F /* Reflective.cpp in Sources */,
+				7D2864D32109A326003A3B9F /* GlobalTrace.cpp in Sources */,
+				7D2864C42109A326003A3B9F /* PlaneChecker.cpp in Sources */,
+				7D2864B42109A326003A3B9F /* RayCast.cpp in Sources */,
+				7D2864F62109A326003A3B9F /* ply.c in Sources */,
+				7D2864A72109A326003A3B9F /* OpenCylinder.cpp in Sources */,
+				7D2864CD2109A326003A3B9F /* Compound.cpp in Sources */,
+				7D2864DC2109A326003A3B9F /* Vector3D.cpp in Sources */,
+				7D2864CA2109A326003A3B9F /* SV_Emissive.cpp in Sources */,
+				7D2864AC2109A326003A3B9F /* Plane.cpp in Sources */,
+				7D2864C72109A326003A3B9F /* Torus.cpp in Sources */,
+				7D2864BD2109A326003A3B9F /* FBmTextureRamp.cpp in Sources */,
+				7D2865152109A326003A3B9F /* SV_Phong.cpp in Sources */,
+				7D2864E42109A326003A3B9F /* Rectangle.cpp in Sources */,
+				7D2864B62109A326003A3B9F /* Checker3D.cpp in Sources */,
+				7D2864D92109A326003A3B9F /* PointLight.cpp in Sources */,
+				7D2864A92109A326003A3B9F /* BRDF.cpp in Sources */,
+				7D2865172109A326003A3B9F /* BTDF.cpp in Sources */,
+				7D2864DD2109A326003A3B9F /* SV_GlossySpecular.cpp in Sources */,
+				7D2864D02109A326003A3B9F /* Mapping.cpp in Sources */,
+				7D2865052109A326003A3B9F /* InstanceTexture.cpp in Sources */,
+				7D2864EB2109A326003A3B9F /* Sampler.cpp in Sources */,
+				7D2864B32109A326003A3B9F /* GlossyReflector.cpp in Sources */,
+				7D2864C32109A326003A3B9F /* Wood.cpp in Sources */,
+				7D2865032109A326003A3B9F /* MultiJittered.cpp in Sources */,
+				7D2864FE2109A326003A3B9F /* Matrix.cpp in Sources */,
+				7D2864E52109A326003A3B9F /* SolidCylinder.cpp in Sources */,
+				7D2864EE2109A326003A3B9F /* GlossySpecular.cpp in Sources */,
+				7D2864E02109A326003A3B9F /* Disk.cpp in Sources */,
+				7D2864F42109A326003A3B9F /* SphereChecker.cpp in Sources */,
+				7D2864FD2109A326003A3B9F /* Point3D.cpp in Sources */,
+				7D2864BA2109A326003A3B9F /* Image.cpp in Sources */,
+				7D2864C22109A326003A3B9F /* SphereConcave.cpp in Sources */,
+				7D2865082109A326003A3B9F /* AreaLight.cpp in Sources */,
+				7D2864EC2109A326003A3B9F /* AnnulusPart.cpp in Sources */,
+				7D2864DE2109A326003A3B9F /* FresnelReflector.cpp in Sources */,
+				7D2864B22109A326003A3B9F /* SmoothMeshTriangle.cpp in Sources */,
+				7D28650F2109A326003A3B9F /* SmoothTriangle.cpp in Sources */,
+				7D2864AD2109A326003A3B9F /* FBmTextureWrapped.cpp in Sources */,
+				7D2864CE2109A326003A3B9F /* SmoothUVMeshTriangle.cpp in Sources */,
+				7D2865002109A326003A3B9F /* Matte.cpp in Sources */,
+				7D2864FC2109A326003A3B9F /* FishBowl.cpp in Sources */,
+				7D2864F12109A326003A3B9F /* SpherePartConvex.cpp in Sources */,
+				7D2864C12109A326003A3B9F /* FresnelTransmitter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,3 +13,12 @@ If you want to render other scenes, you can modify the Macro, ChapterNum, in Bui
 
 If you can read simple Chinese, you could find more details in my blog: https://blog.csdn.net/libing_zeng/article/details/72625390
 If you have any question to share with me, you can reach me by email: libingzeng123@gmail.com
+
+![1.1](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/1.1-Tessellation-horn%2C%20sphere.jpg)
+![1.2](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/1.2-Tessellation-bezier%20patches%2C%20rotational%20sweeping%20surface.jpg)
+![2.1](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/2.1-2D%20Checker-sphere%2C%20cylinder.jpg)
+![3.1](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/3.1-Scene1.jpg)
+![3.2](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/3.2-Scene2.jpg)
+![3.3](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/3.3-Scene3.jpg)
+![3.4](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/3.4-Scene4.jpg)
+![3.5](https://github.com/libingzeng/RayTraceGroundUp/blob/master/results/picture/3.5-Scene5.jpg)

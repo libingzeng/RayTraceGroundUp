@@ -1,10 +1,10 @@
 # RayTraceGroundUp
-This renderer is based on the original source code of  the book named Ray Tracing From The Ground UP.   
-I extended it from the following aspects.   
-Objects: part of sphere, part of tori, globe, and so on.   
-Tessellation: sphere, horn, rotational sweeping surfaces, bezier patches (Utah teapot).   
-2D texture: solid cylinder checker, sphere checker.   
-Scene building: several scenes were built and the corresponding resultant images were produced.  
+This renderer is based on the original source code of  the book named Ray Tracing From The Ground UP.  
+I extended it from the following aspects.  
+**Objects**: part of sphere, part of tori, globe, and so on.  
+**Tessellation**: sphere, horn, rotational sweeping surfaces, bezier patches (Utah teapot).  
+**2D** **texture**: solid cylinder checker, sphere checker.  
+**Scene** **building**: several scenes were built and the corresponding resultant images were produced.  
 
 Some of the resultant images were put in the folder ./results/picture  
 
